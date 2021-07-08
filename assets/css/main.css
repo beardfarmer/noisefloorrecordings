@@ -2916,10 +2916,10 @@ input, select, textarea {
 		padding: 9em 0 9em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
+		background-attachment: fixed, fixed, fixed;
 		background-image: url("/images/Mixing_desk_BW.jpg");
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		background-position: top left, center center, center center;
+		background-size: auto, cover, cover;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
