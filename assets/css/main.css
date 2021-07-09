@@ -192,6 +192,10 @@ input, select, textarea {
 		margin: 2em 0;
 	}
 
+	header_logo {
+		text-align: center;
+	}
+
 		hr.major {
 			margin: 3em 0;
 		}
