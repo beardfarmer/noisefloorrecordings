@@ -3051,7 +3051,7 @@ input, select, textarea {
 			-ms-transform: scale(1);
 			transform: scale(1);
 			opacity: 1;
-			position: relative;
+			position: static;
 			z-index: 1;
 		}
 
