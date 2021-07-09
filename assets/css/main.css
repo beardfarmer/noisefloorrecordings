@@ -2919,7 +2919,7 @@ input, select, textarea {
 		background-attachment: fixed, fixed, fixed;
 		background-image: url(../../images/Mixing_desk_BW.jpg);
 		background-position: top center, center center, center center;
-		background-size: contain;
+		background-size: cover;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
