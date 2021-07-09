@@ -2913,6 +2913,23 @@ input, select, textarea {
 
 /* Header */
 
+
+.noisefloor-logo {
+   	 background-image: url(../../images/NF_LOGO_BANNER_trans.png);
+   	 background-size: cover;
+   	 width: 100%;
+    	height: 7rem;
+   	 max-width: 600px;
+    	max-height: 132px;
+    	margin: 0 auto 2rem;
+	}
+
+@media screen and (max-width: 320px) {
+	.noisefloor-logo {
+		height: 4.2rem;
+	}
+
+
 	#header {
 		padding: 9em 0 9em 0 ;
 		background-color: #4686a0;
@@ -3086,21 +3103,6 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 		}
-
-.noisefloor-logo {
-   	 background-image: url(../../images/NF_LOGO_BANNER_trans.png);
-   	 background-size: cover;
-   	 width: 100%;
-    	height: 7rem;
-   	 max-width: 600px;
-    	max-height: 132px;
-    	margin: 0 auto 2rem;
-	}
-
-@media screen and (max-width: 320px) {
-	.noisefloor-logo {
-		height: 4.2rem;
-	}
 
 	body.is-preload #header .inner {
 		-moz-transform: scale(1.05);
