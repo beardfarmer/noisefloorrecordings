@@ -2918,7 +2918,7 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed, fixed, fixed;
 		background-image: url(../../images/Mixing_desk_BW.jpg);
-		background-position: center center, center center;
+		background-position: center center;
 		background-size: cover;
 		overflow: hidden;
 		position: relative;
