@@ -3087,14 +3087,6 @@ input, select, textarea {
 			width: 100%;
 		}
 
-	body.is-preload #header .inner {
-		-moz-transform: scale(1.05);
-		-webkit-transform: scale(1.05);
-		-ms-transform: scale(1.05);
-		transform: scale(1.05);
-		opacity: 0;
-	}
-
 .noisefloor-logo {
    	 background-image: url(../../images/NF_LOGO_BANNER_trans.png);
    	 background-size: cover;
@@ -3108,6 +3100,14 @@ input, select, textarea {
 @media screen and (max-width: 320px) {
 	.noisefloor-logo {
 		height: 4.2rem;
+	}
+
+	body.is-preload #header .inner {
+		-moz-transform: scale(1.05);
+		-webkit-transform: scale(1.05);
+		-ms-transform: scale(1.05);
+		transform: scale(1.05);
+		opacity: 0;
 	}
 
 		body.is-preload #header .inner .actions {
