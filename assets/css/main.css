@@ -194,6 +194,8 @@ input, select, textarea {
 
 	header_logo {
 		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 		hr.major {
