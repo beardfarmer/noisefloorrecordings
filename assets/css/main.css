@@ -2914,8 +2914,8 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 9em 0 9em 0 ;
-		background-color: #4686a0;
+		padding: 5em 0 5em 0 ;
+		background-color: #000;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed, fixed, fixed;
 		background-image: url(../../images/Mixing_desk_BW.jpg);
@@ -2924,6 +2924,7 @@ input, select, textarea {
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		 max-height: 600px;
 	}
 
 		#header a {
