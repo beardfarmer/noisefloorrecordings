@@ -2392,7 +2392,7 @@ input, select, textarea {
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 50%;
 			}
 
 /* List */
@@ -3084,7 +3084,7 @@ input, select, textarea {
 	}
 
 @media screen and (max-width: 320px) {
-	.noisefloor-logo {
+	.noisefloor-logo 
 		height: 4.2rem;
 	}
 
