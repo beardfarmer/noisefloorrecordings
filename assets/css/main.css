@@ -3095,19 +3095,7 @@ input, select, textarea {
 		opacity: 0;
 	}
 
-		body.is-preload #header .inner .actions {
-			-moz-transform: translateY(30em);
-			-webkit-transform: translateY(30em);
-			-ms-transform: translateY(30em);
-			transform: translateY(30em);
-			opacity: 0;
-		}
-
-	body.is-preload #header:after {
-		opacity: 1;
-	}
-
-	.noisefloor-logo {
+.noisefloor-logo {
    	 background-image: url(../../images/NF_LOGO_BANNER_trans.png);
    	 background-size: cover;
    	 width: 100%;
@@ -3121,6 +3109,19 @@ input, select, textarea {
 	.noisefloor-logo {
 		height: 4.2rem;
 	}
+
+		body.is-preload #header .inner .actions {
+			-moz-transform: translateY(30em);
+			-webkit-transform: translateY(30em);
+			-ms-transform: translateY(30em);
+			transform: translateY(30em);
+			opacity: 0;
+		}
+
+	body.is-preload #header:after {
+		opacity: 1;
+	}
+
 
 /* Footer */
 
