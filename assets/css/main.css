@@ -2917,7 +2917,7 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed, fixed, fixed;
-		background-image: url("/images/Mixing_desk_BW.jpg");
+		background-image: url("https://github.com/beardfarmer/noisefloorrecordings/blob/1bf3c25ec380a0449e6799c35d1de8e18e85ad11/images/Mixing_desk_BW.jpg");
 		background-position: top left, center center, center center;
 		background-size: auto, cover, cover;
 		overflow: hidden;
