@@ -3081,13 +3081,15 @@ input, select, textarea {
    	 max-width: 600px;
     	max-height: 132px;
     	margin: 0 auto 2rem;
-	}
+}
+@media screen and (max-width: 736px) {
+	.noisefloor-logo {
+}
 
 @media screen and (max-width: 320px) {
-	.noisefloor-logo 
+	.noisefloor-logo {
 		height: 4.2rem;
 	}
-
 
 		#header:after {
 			-moz-transition: opacity 1s ease;
@@ -3439,7 +3441,8 @@ input, select, textarea {
 				#header .actions {
 					margin: 2em 0 0 0;
 				}
-
+	
+		
 		/* Footer */
 
 			#footer {
