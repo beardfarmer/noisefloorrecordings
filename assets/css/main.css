@@ -3082,15 +3082,15 @@ input, select, textarea {
     	max-height: 132px;
     	margin: 0 auto 2rem;
 }
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 500px) {
 	.noisefloor-logo {
-}
-
-@media screen and (max-width: 320px) {
-	.noisefloor-logo {
-		height: 4.2rem;
+		height: 5.7rem;
 	}
 
+	@media screen and (max-width: 410px) {
+	.noisefloor-logo {
+		height: 4rem;
+	}
 		#header:after {
 			-moz-transition: opacity 1s ease;
 			-webkit-transition: opacity 1s ease;
@@ -3453,8 +3453,12 @@ input, select, textarea {
 
 /* XSmall */
 
-	@media screen and (max-width: 480px) {
-
+	@media screen and (max-width: 500px) {
+		
+/* Basic */
+		body, input, select, textarea {
+				font-size: 10pt;}
+		
 		/* Button */
 
 			input[type="submit"],
