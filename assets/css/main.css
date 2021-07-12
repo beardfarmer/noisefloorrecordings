@@ -2395,6 +2395,11 @@ input, select, textarea {
 				width: 100%;
 			}
 
+.service_icons {
+    width: 100%;
+    max-width: 50%;
+    height: auto;
+}
 /* List */
 
 	ol {
