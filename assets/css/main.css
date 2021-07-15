@@ -2396,8 +2396,10 @@ input, select, textarea {
 			}
 
 .service_icons {
+	display: block;
+	margin: auto;
     width: 100%;
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
 }
 /* List */
