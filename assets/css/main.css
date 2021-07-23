@@ -3069,6 +3069,8 @@ input, select, textarea {
 				opacity: 1;
 			}
 
+/* @noisefloor logo  */
+
 .noisefloor-logo {
    	 background-image: url(../../images/NF_LOGO_BANNER_trans.png);
    	 background-size: cover;
@@ -3083,17 +3085,17 @@ input, select, textarea {
 		height: 5.7rem;
 	}
 	
-.carouselContent {
-    background-color: #ddd;
-}
-
+	/* carousel quotes */
+	
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev{
     display:block;
 }
 	
-
+	
+/* @media screen */
+	
 	@media screen and (max-width: 410px) {
 	.noisefloor-logo {
 		height: 4rem;
