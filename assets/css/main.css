@@ -3085,15 +3085,6 @@ input, select, textarea {
 		height: 5.7rem;
 	}
 	
-	/* carousel quotes */
-	
-.carousel-item.active,
-.carousel-item-next,
-.carousel-item-prev{
-    display:block;
-}
-	
-	
 /* @media screen */
 	
 	@media screen and (max-width: 410px) {
