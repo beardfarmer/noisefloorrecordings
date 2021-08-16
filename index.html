@@ -10,46 +10,6 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<script>/*function() {
-	var i = 0;
-	setInterval(function() {
-		$("#quote-" + i).removeClass("main");
-		$("#quote-" + i).addClass("outside");
-		i++;
-		if(i>1) {
-			for(i = 0;) {
-				$("#quote" + i).removeClass("outside");
-			}
-			i = 0;
-		}
-		$("#quote" + i).addClass("main");
-	}, 5000);
-});*/
-
-$(function() {
-	var i = 0;
-	slideCount = 5;
-	function timeout() {
-		setTimeout(function() {
-			// Move $("#quote" + i) off to the left
-			$("#quote" + i).animate({
-				right: "120%"
-			}, 2000);
-			// Change selected quote
-			i++;
-			if(i > (slideCount - 1)) {
-				i = 0;
-			}
-			// Move $("#quote" + i) to right side then back to middle
-			$("#quote" + i).css("right", "-60%");
-			$("#quote" + i).animate({
-				right: "20%"
-			}, 2000);
-			timeout();
-		}, 7000);
-	};
-	timeout();
-		});</script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>		
 </head>
 <body>
@@ -115,6 +75,47 @@ $(function() {
 							<header class="major">
 								<h2>Testamonials</h2>
 							</header>
+							<script>/*function() {
+	var i = 0;
+	setInterval(function() {
+		$("#quote-" + i).removeClass("main");
+		$("#quote-" + i).addClass("outside");
+		i++;
+		if(i>1) {
+			for(i = 0;) {
+				$("#quote" + i).removeClass("outside");
+			}
+			i = 0;
+		}
+		$("#quote" + i).addClass("main");
+	}, 5000);
+});*/
+
+$(function() {
+	var i = 0;
+	slideCount = 5;
+	function timeout() {
+		setTimeout(function() {
+			// Move $("#quote" + i) off to the left
+			$("#quote" + i).animate({
+				right: "120%"
+			}, 2000);
+			// Change selected quote
+			i++;
+			if(i > (slideCount - 1)) {
+				i = 0;
+			}
+			// Move $("#quote" + i) to right side then back to middle
+			$("#quote" + i).css("right", "-60%");
+			$("#quote" + i).animate({
+				right: "20%"
+			}, 2000);
+			timeout();
+		}, 7000);
+	};
+	timeout();
+		});</script>
+							
 <div class="container">
 		 <ul class="quote-slider">
 	<li id='quote0' style='right: 20%'>
@@ -123,12 +124,11 @@ $(function() {
 	</li>
 	<li id='quote1'>
 		“Greg is incredibly easy going and facilitates any madness you might want to record. He makes everything effortless (not including your own ability to play your instrument!) You have the freedom to just do your thing and he works around that, nothing is too much trouble and he's very patient. I highly recommend recording with Greg, especially if you're noisy! ”
-		<div class="site">Joe Wise
-</div>
+		<div class="site">Joe Wise</div>
 	</li>
 	<li id='quote2'>
-		"Frankly I don't understand why anyone would ever work with them"
-		<div class="site">Arnold Schwarzenegger</div>
+		“Recorded with two different bands (with quite different needs) with Greg at his studio. Both times were an absolute pleasure. Greg is both a very accommodating and attentive host as well as being a very accomplished and knowledgable sound engineer. We did seek Greg's artistic input a few times and his advice and co-production contributions were very gratefully received.”
+		<div class="site">Michael Foreman</div>
 	</li>
 	<li id='quote3'>
 		“Sounds amazing and the quality of engineering from Greg is outstanding. We tried other places and other people and it wasn't even comparable - can't see why we'd ever record anywhere else or with anyone else!”
@@ -142,12 +142,7 @@ $(function() {
 		“In my opinion the best studio engineer in Medway. Greg is extremely easy to get on with, he does a great job, and is also a talented multi-instrumentalist. I can't recommend him highly enough.”
 		<div class="site">Ryan Sams</div>
 	</li>
-
-	<li id='quote6'>
-		“Recorded with two different bands (with quite different needs) with Greg at his studio. Both times were an absolute pleasure. Greg is both a very accommodating and attentive host as well as being a very accomplished and knowledgable sound engineer. We did seek Greg's artistic input a few times and his advice and co-production contributions were very gratefully received.”
-		<div class="site">Michael Foreman </div>
-	</li>
-			
+		
 </ul>
           
 	</section>
