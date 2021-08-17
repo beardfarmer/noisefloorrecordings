@@ -2263,94 +2263,7 @@ input, select, textarea {
 			border-radius: 0;
 			padding: 0;
 		}
-
-/* Icon */
-
-	.icon {
-		text-decoration: none;
-		border-bottom: none;
-		position: relative;
-	}
-
-		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			display: inline-block;
-			font-style: normal;
-			font-variant: normal;
-			text-rendering: auto;
-			line-height: 1;
-			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
-		}
-
-		.icon > .label {
-			display: none;
-		}
-
-		.icon:before {
-			line-height: inherit;
-		}
-
-		.icon.solid:before {
-			font-weight: 900 !important;
-		}
-
-		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
-		}
-
-		.icon.style1:before {
-			color: #c3e895;
-		}
-
-		.icon.style2:before {
-			color: #8addaa;
-		}
-
-		.icon.style3:before {
-			color: #6bd4c8;
-		}
-
-		.icon.style4:before {
-			color: #57aed3;
-		}
-
-		.icon.style5:before {
-			color: #4a87d3;
-		}
-
-		.icon.style6:before {
-			color: #6b88e6;
-		}
-
-		.icon.major {
-			text-decoration: none;
-			color: #555;
-			cursor: default;
-			display: inline-block;
-			margin: 0 0 1.5em 0;
-		}
-
-			.icon.major:before {
-				-moz-osx-font-smoothing: grayscale;
-				-webkit-font-smoothing: antialiased;
-				display: inline-block;
-				font-style: normal;
-				font-variant: normal;
-				text-rendering: auto;
-				line-height: 1;
-				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
-				font-weight: 400;
-			}
-
-			.icon.major:before {
-				font-size: 4em;
-				line-height: 1em;
-			}
-
+		
 /* Image */
 
 	.image {
@@ -2394,14 +2307,6 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
-
-.service_icons {
-	display: block;
-	margin: auto;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-}
 /* List */
 
 	ol {
@@ -2584,6 +2489,16 @@ input, select, textarea {
 			ul.icons li .icon:before {
 				font-size: 1.5em;
 			}
+
+/* Service Icons */
+.service_icons {
+	display: block;
+	margin: auto;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
 /* Table */
 
 	.table-wrapper {
@@ -2780,6 +2695,78 @@ input, select, textarea {
 			cursor: default;
 			opacity: 0.25;
 		}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: black;}
+
 
 /* Main */
 
