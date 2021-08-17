@@ -10,7 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>		
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
 <body>
 	<body class="is-preload">
@@ -78,33 +78,44 @@
 							
 							
 <div class="container">
-		 <ul>
-	<li>
+	<script>
+		$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+}, 3000);</script>
+	<div id="slideshow">
+   <div>
 		"Greg is very accommodating and extremely knowledgeable as to what to do to get the best sound for all instruments and genres. My favourite recording experience by far"
 		<div class="site">Dan Toms</div>
-	</li>
-	<li>
+	</div>
+		<div>
 		“Greg is incredibly easy going and facilitates any madness you might want to record. He makes everything effortless (not including your own ability to play your instrument!) You have the freedom to just do your thing and he works around that, nothing is too much trouble and he's very patient. I highly recommend recording with Greg, especially if you're noisy! ”
 		<div class="site">Joe Wise</div>
-	</li>
-	<li>
+	</div>
+	<div>
 		“Recorded with two different bands (with quite different needs) with Greg at his studio. Both times were an absolute pleasure. Greg is both a very accommodating and attentive host as well as being a very accomplished and knowledgable sound engineer. We did seek Greg's artistic input a few times and his advice and co-production contributions were very gratefully received.”
 		<div class="site">Michael Foreman</div>
-	</li>
-	<li>
+	</div>
+	<div>
 		“Sounds amazing and the quality of engineering from Greg is outstanding. We tried other places and other people and it wasn't even comparable - can't see why we'd ever record anywhere else or with anyone else!”
 		<div class="site">Peter Bevan</div>
-	</li>
-	<li>
+	</div>
+	<div>
 		“Our band searched for a long time for somewhere that felt comfortable and the producer especially puts you well at ease. There's not a lot this guy doesn't know. We'll be recording there for a long time to come.”
 		<div class="site">Luke Ellis</div>
-	</li>
-	<li> 
+	</div>
+	<div> 
 		“In my opinion the best studio engineer in Medway. Greg is extremely easy to get on with, he does a great job, and is also a talented multi-instrumentalist. I can't recommend him highly enough.”
 		<div class="site">Ryan Sams</div>
-	</li>
-		
-</ul>
+	</div>
+</div>
+	
           
 	</section>
 		
