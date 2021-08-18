@@ -2919,8 +2919,24 @@ q {font-style: italic;}
  }
 
   .Contact-Form button:hover{
-	border:1px solid darkgray;
-	background:none;
+	background-color:darkgray;
+	transform:perspective(1px) translateZ(0);
+	box-shadow:0 0 1px rgba(0,0,0,0);
+	transition-duration: .3s;
+	transition-property:box-shadow,transform;
+	overflow: visible;
+	cursor: pointer;
+	position: relative;
+	padding: 20px 40px;
+	-webkit-transition: opacity .3s ease;
+	-moz-transition: opacity .3s ease;
+	transition: opacity .3s ease;
+	opacity: 1;
+	text-align: center;
+	border-radius: 0;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 2px;
   }
 
  .details{
