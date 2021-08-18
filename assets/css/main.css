@@ -2862,7 +2862,7 @@ q {font-style: italic;}
 	 padding: 0px 30px;
 	 margin:0 auto;
 	 text-align:center; 
-margin-top:50px;
+	margin-top:50px;
  }
 
  .Contact-Form h2{
@@ -2878,7 +2878,7 @@ margin-top:50px;
  }
 
  .input-fields{
-	 width:45%;
+	 width:100%;
 	 float:left;
 	 overflow:hidden;
 	 margin-right:30px;
@@ -2886,21 +2886,21 @@ margin-top:50px;
  }
 
  .input-fields input{
-	  width:354px;
+	  width:100%;
 	  padding:15px 20px;
 	  margin-bottom:20px;
 	  border:0;
-	  border-radius:3px ;
+	  border-radius:7px ;
   }
 
  .msg{
-	 width:45%;
+	 width:100%;
 	 overflow:hidden;
 	 margin-top: 70px;
  }
 
  .msg textarea{
-	 width:354px;
+	 width:100%;
 	  padding:10px 20px;
 	  margin-bottom:20px;
 	  height:160px;
@@ -2911,7 +2911,7 @@ margin-top:50px;
 
  .Contact-Form button{
 	 width:100%;
-	 background-color: white;
+	 background-color: gray;
 	 color:#ffffff;
 	 text-transform:uppercase;
 	 border-radius:3px;
