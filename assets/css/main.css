@@ -2853,13 +2853,14 @@ q {font-style: italic;}
 
 
 .full{
-	 max-width:90%;
+	 max-width:≈;
 	 margin:0 auto;
  }
 
  .Contact-Form{
-	 width:100%;
-	 padding: 0px 30px;
+	 background-color:white;
+	 width:90%;
+	 padding: 0px 50px;
 	 margin:0 auto;
 	 text-align:center; 
 	margin-top:50px;
