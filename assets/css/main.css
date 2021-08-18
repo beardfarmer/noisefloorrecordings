@@ -2852,16 +2852,16 @@ q {font-style: italic;}
 /* Contact-Form */
 
 
-
 .full{
-	 max-width:960px;
+	 max-width:90%;
 	 margin:0 auto;
  }
 
  .Contact-Form{
 	 width:100%;
+	 padding: 0px 30px;
 	 margin:0 auto;
-	 text-align:centre; 
+	 text-align:center; 
 margin-top:50px;
  }
 
@@ -2910,20 +2910,15 @@ margin-top:50px;
  }
 
  .Contact-Form button{
-
-	 padding:15px 20px;
+	 width:100%;
+	 background-color: white;
 	 color:#ffffff;
 	 text-transform:uppercase;
-	 border:1px solid green;
-	 background:blue;
-	 cursor:pointer;
 	 border-radius:3px;
-	 margin-right: 40px;
-     margin-top: 15px;
  }
 
   .Contact-Form button:hover{
-	border:1px solid blue;
+	border:1px solid darkgray;
 	background:none;
   }
 
