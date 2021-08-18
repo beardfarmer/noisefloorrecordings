@@ -2906,27 +2906,19 @@ q {font-style: italic;}
 	 width:100%;
 	 background-color: #007c89;
 	 text-transform:uppercase;
-	 border-radius:3px;
+	 border-radius:7px;
  }
 
   .Contact-Form button:hover{
-	background-color:darkgray;
+	display: inline-block;
+    	vertical-align: middle;
 	transform:perspective(1px) translateZ(0);
-	box-shadow:0 0 1px rgba(0,0,0,0);
+	box-shadow: 0 0 1px rgba(0,0,0,0);
+	-webkit-transition-duration: .3s;
 	transition-duration: .3s;
-	transition-property:box-shadow,transform;
+	-webkit-transition-property: box-shadow,transform;
+	transition-property: box-shadow,transform;
 	overflow: visible;
-	cursor: pointer;
-	position: relative;
-	-webkit-transition: opacity .3s ease;
-	-moz-transition: opacity .3s ease;
-	transition: opacity .3s ease;
-	opacity: 1;
-	text-align: center;
-	border-radius: 0;
-	box-sizing: border-box;
-	border-style: solid;
-	border-width: 2px;
   }
 
  .details{
