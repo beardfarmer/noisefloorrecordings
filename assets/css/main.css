@@ -2865,14 +2865,6 @@ q {font-style: italic;}
 	 text-align:center; 
 	margin-top:50px;
  }
-
- .Contact-Form h2{
-	 color:#ffffff;
-	 text-transform:capitalize;
-	 margin-bottom:20px;
-	 font-size:30px;
- }
-
  .Contact-Form p{
 	 color:#9999B9;
 	 margin-bottom:50px;
@@ -2912,8 +2904,7 @@ q {font-style: italic;}
 
  .Contact-Form button{
 	 width:100%;
-	 background-color: gray;
-	 color:#ffffff;
+	 background-color: #007c89;
 	 text-transform:uppercase;
 	 border-radius:3px;
  }
@@ -2927,7 +2918,6 @@ q {font-style: italic;}
 	overflow: visible;
 	cursor: pointer;
 	position: relative;
-	padding: 20px 40px;
 	-webkit-transition: opacity .3s ease;
 	-moz-transition: opacity .3s ease;
 	transition: opacity .3s ease;
