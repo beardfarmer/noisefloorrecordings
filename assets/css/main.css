@@ -2860,7 +2860,7 @@ q {font-style: italic;}
     box-shadow: none;
 }
 .contact-fields {
-  padding:40px 40px 0px;
+  padding:40px 40px;
 }
 .contact-fields .form-group {
   margin-bottom: 35px;
@@ -2896,40 +2896,6 @@ h2 {
     font-size: 35px;
     letter-spacing: 1.25px;
 }
-.ct-section-head {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
-    color: #101f1d;
-    font-size: 35px;
-    text-transform: uppercase;
-    padding-top: 45px;
-    letter-spacing: 1.25px;
-    margin-bottom: 5px;
-}
-.ct-section-header {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
-    color: #101f1d;
-    font-size: 35px;
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 45px;
-    letter-spacing: 1.25px;
-    margin-bottom: 5px;
-}
-.ct-newsletter-inline {
-    display: table;
-    width: 100%;
-    color: white;
-    margin: 69px 0 138px;
-    text-align: center;
-}
-.ct-newsletter-inline__facebook {
-    background-color: #3b5997;
-}
-.ct-newsletter-inline__facebook, .ct-newsletter-inline__twitter {
-    width: 16%;
-}
 a {
     -webkit-transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
     transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
@@ -2939,6 +2905,7 @@ a {
     color: white;
 }
 .btn {
+    width: 100%;
     font-size: 15px;
     padding: 22px 46px 18px;
     line-height: 1;
@@ -2948,14 +2915,6 @@ a {
     position: relative;
     letter-spacing: 0.3px;
 }
-@media screen and (min-width: 980px) {
-  .contact-info {
-    padding-left: 110px;
-  }
-}
-
-
-
 
 /* Main */
 
