@@ -276,7 +276,7 @@ input, select, textarea {
 
 			.container {
 				max-width: 100% !important;
-				width: 80% !important;
+				width: 90% !important;
 			}
 
 		}
@@ -2853,10 +2853,7 @@ q {font-style: italic;}
 
 
 .contact-section .form-control{
-  border: 1px solid  #2fbfbc;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+  border: 1px solid  #b5c8ca;
     box-shadow: none;
 }
 .contact-fields {
