@@ -2717,7 +2717,7 @@ q {font-style: italic;}
 				.main.style2 input[type="button"]:hover,
 				.main.style2 button:hover,
 				.main.style2 .button:hover {
-					background-color: rgba(255, 255, 255, 0.125);
+					background-color: #269694;
 				}
 
 				.main.style2 input[type="submit"]:active,
@@ -2725,7 +2725,7 @@ q {font-style: italic;}
 				.main.style2 input[type="button"]:active,
 				.main.style2 button:active,
 				.main.style2 .button:active {
-					background-color: rgba(255, 255, 255, 0.25);
+					background-color: #269694;
 				}
 
 				.main.style2 input[type="submit"].primary,
@@ -2735,7 +2735,7 @@ q {font-style: italic;}
 				.main.style2 .button.primary {
 					background-color: #ffffff;
 					box-shadow: inset 0 0 0 1px #ffffff !important;
-					color: #333 !important;
+					color: #269694 !important;
 				}
 
 					.main.style2 input[type="submit"].primary:hover,
