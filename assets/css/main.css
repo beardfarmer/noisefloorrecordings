@@ -2717,7 +2717,7 @@ q {font-style: italic;}
 				.main.style2 input[type="button"]:hover,
 				.main.style2 button:hover,
 				.main.style2 .button:hover {
-					background-color: #269694;
+						width: 40%;
 				}
 
 				.main.style2 input[type="submit"]:active,
