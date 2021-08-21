@@ -32,10 +32,6 @@ input[type=submit]:hover {
   text-align: left;
 }
 
-a.button:hover{
-     background: #383;
-}
-
 @media screen and (max-width: 736px) {
   
 .cform_container {
