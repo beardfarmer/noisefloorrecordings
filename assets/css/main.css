@@ -2710,16 +2710,7 @@ q {font-style: italic;}
 			.main.style2 .button {
 				box-shadow: inset 0 0 0 1px #ffffff;
 				color: #ffffff !important;
-			}
-
-				.main.style2 input[type="submit"]:hover,
-				.main.style2 input[type="reset"]:hover,
-				.main.style2 input[type="button"]:hover,
-				.main.style2 button:hover,
-				.main.style2 .button:hover {
-						width: 40%;
-				}
-
+}
 				.main.style2 input[type="submit"]:active,
 				.main.style2 input[type="reset"]:active,
 				.main.style2 input[type="button"]:active,
