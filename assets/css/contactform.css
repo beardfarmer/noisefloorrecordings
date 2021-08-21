@@ -19,10 +19,6 @@ input[type=submit] {
   width: 25%;
 }
 
-input[type=submit]:hover {
-  background-color: #06bed2;
-}
-
 .cform_container {
   border-radius: 5px;
   background-color: #f2f2f2;
