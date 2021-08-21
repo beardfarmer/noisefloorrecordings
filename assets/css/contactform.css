@@ -33,4 +33,5 @@ input[type=reset].primary:hover,
 input[type=button].primary:hover,button.primary:hover, .button.primary:hover {
 	background-color: #039aab; !important;
 	color: #ffffff !important;
+	width: 40%;
 				}
