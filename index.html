@@ -181,7 +181,7 @@ window.onload= function () {
 				<h5>Fill out the form below and I'll be in touch as soon as possible</h5>
 				
 				<div class="cform_container">
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
         <form name="frmContact" id="" frmContact"actionpage.php" method="post"
             action="" enctype="multipart/form-data"
             onsubmit="return validateContactForm()">
@@ -210,8 +210,8 @@ window.onload= function () {
                 <textarea name="content" id="content"
                     class="input-field" cols="60" rows="6"></textarea>
             </div>
-             <div class="g-recaptcha" data-sitekey="<?php echo SITE_KEY; ?>"></div>
-    <div id="mail-status"></div>
+<div class="g-recaptcha" data-sitekey="6LdvKRkcAAAAAObptyFllo5p5JXhbEJOXmKj5iK8"></div>
+      <br/>
             <div>
                 <input type="submit" name="send" class="btn-submit"
                     value="Send" />
