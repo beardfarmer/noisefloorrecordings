@@ -217,6 +217,17 @@ window.onload= function () {
             </div>
              <div class="g-recaptcha" data-sitekey="<?php echo SITE_KEY; ?>"></div>
     <div id="mail-status">
+                    <input type="submit" name="send" class="btn-submit"
+                    value="Send" />
+
+                <div id="statusMessage"> 
+                        <?php
+                        if (! empty($message)) {
+                            ?>
+                            <p class='<?php echo $type; ?>Message'><?php echo $message; ?></p>
+                        <?php
+                        }
+                        ?>
                     </div>
             </div>
         </form>
