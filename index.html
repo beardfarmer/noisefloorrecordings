@@ -181,19 +181,20 @@ window.onload= function () {
 				<h5>Fill out the form below and I'll be in touch as soon as possible</h5>
 				
 				<div class="cform_container">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
         <form name="frmContact" id="" frmContact"actionpage.php" method="post"
             action="" enctype="multipart/form-data"
             onsubmit="return validateContactForm()">
 
             <div class="input-row">
                 <label style="padding-top: 20px;">First Name</label> 
-                <span id="userName-info" class="info"></span><br /> 
+                <span id="userFName-info" class="info"></span><br /> 
                 <input type="text" class="input-field" name="firstname"
                     placeholder="Your first name..">
             </div>
             <div class="input-row">
                 <label style="padding-top: 20px;">Last Name</label> 
-                <span id="userName-info" class="info"></span><br /> 
+                <span id="userLName-info" class="info"></span><br /> 
                 <input type="text" class="input-field" name="lastname"
                     placeholder="Your last name..">
             </div>
@@ -215,9 +216,10 @@ window.onload= function () {
                 <textarea name="content" id="content"
                     class="input-field" cols="60" rows="6"></textarea>
             </div>
-<div class="g-recaptcha" data-sitekey="<?php echo SITE_KEY; ?>"></div>
+             <div class="g-recaptcha" data-sitekey="<?php echo SITE_KEY; ?>"></div>
     <div id="mail-status"></div>
-                    <input type="submit" name="send" class="btn-submit"
+            <div>
+                <input type="submit" name="send" class="btn-submit"
                     value="Send" />
 
                 <div id="statusMessage"> 
@@ -241,14 +243,19 @@ window.onload= function () {
 
             $(".info").html("");
             $(".input-field").css('border', '#e0dfdf 1px solid');
-            var userName = $("#userName").val();
+            var userName = $("#userFName").val();
+            var userName = $("#userLName").val();
             var userEmail = $("#userEmail").val();
-            var subject = $("#subject").val();
             var content = $("#content").val();
             
             if (userName == "") {
-                $("#userName-info").html("Required.");
-                $("#userName").css('border', '#e66262 1px solid');
+                $("#userFName-info").html("Required.");
+                $("#userFName").css('border', '#e66262 1px solid');
+                valid = false;
+            }
+            if (userName == "") {
+                $("#userLName-info").html("Required.");
+                $("#userLName").css('border', '#e66262 1px solid');
                 valid = false;
             }
             if (userEmail == "") {
@@ -271,7 +278,6 @@ window.onload= function () {
             return valid;
         }
 </script>
-
   </form>
 </div>
 				
