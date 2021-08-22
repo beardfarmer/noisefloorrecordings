@@ -204,12 +204,6 @@ window.onload= function () {
                     class="input-field" name="userEmail" id="userEmail" placeholder="Your email address.."/>
             </div>
 
-
-            <div class="input-row">
-                <label>Subject</label> <span id="subject-info"
-                    class="info"></span><br /> <input type="text"
-                    class="input-field" name="subject" id="subject" />
-            </div>
             <div class="input-row">
                 <label>Message</label> <span id="userMessage-info"
                     class="info"></span><br />
@@ -249,13 +243,8 @@ window.onload= function () {
             var content = $("#content").val();
             
             if (userName == "") {
-                $("#userFName-info").html("Required.");
-                $("#userFName").css('border', '#e66262 1px solid');
-                valid = false;
-            }
-            if (userName == "") {
-                $("#userLName-info").html("Required.");
-                $("#userLName").css('border', '#e66262 1px solid');
+                $("#userName-info").html("Required.");
+                $("#userName").css('border', '#e66262 1px solid');
                 valid = false;
             }
             if (userEmail == "") {
