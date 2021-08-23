@@ -214,7 +214,23 @@ window.onload= function () {
 
                 <div id="statusMessage"> 
                         <?php
-                        if (! empty($message)) {
+
+$nameErr = $emailErr = $genderErr = $websiteErr = "";
+$name = $email = $gender = $comment = $website = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  if (empty($_POST["name"])) {
+    $nameErr = "Name is required";
+  } else {
+    $name = test_input($_POST["name"]);
+  }
+
+  if (empty($_POST["email"])) {
+    $emailErr = "Email is required";
+  } else {
+    $email = test_input($_POST["email"]);
+  }
+  if (! empty($message)) {
                             ?>
                             <p class='<?php echo $type; ?>Message'><?php echo $message; ?></p>
                         <?php
