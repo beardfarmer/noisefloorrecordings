@@ -182,23 +182,26 @@ window.onload= function () {
 				
 				        <div class="cform_container">
         <form name="frmContact" id="" frmContact"actionpage.php" method="post"
-            action="" enctype="multipart/form-data"
-            onsubmit="return validateContactForm()">
+            action="" enctype="multipart/form-data" onsubmit="return validateContactForm()">
+		<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 
             <div class="input-row">
                 <label style="padding-top: 20px;">First Name</label> 
                 <span id="userName-info" class="info"></span><br /> 
                 <input type="text" class="input-field" name="firstname">
+		    <span class="error">* <?php echo $nameErr;?></span>
             </div>
             <div class="input-row">
                 <label style="padding-top: 20px;">Last Name</label> 
                 <span id="userName-info" class="info"></span><br /> 
                 <input type="text" class="input-field" name="lastname">
+		    <span class="error">* <?php echo $nameErr;?></span>
             </div>
             <div class="input-row">
                 <label>Email</label> <span id="userEmail-info"
                     class="info"></span><br /> <input type="text"
                     class="input-field" name="userEmail" id="userEmail">
+		    <span class="error">* <?php echo $emailErr;?></span>
             </div>
 
             <div class="input-row">
@@ -206,6 +209,7 @@ window.onload= function () {
                     class="info"></span><br />
                 <textarea name="content" id="content"
                     class="input-field" cols="60" rows="6"></textarea>
+		    <span class="error">* <?php echo $messageErr;?></span>
             </div>
 
             <div>
