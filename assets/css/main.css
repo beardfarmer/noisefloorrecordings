@@ -3282,8 +3282,23 @@ q {font-style: italic;}
 		/* Footer */
 
 			#footer {
-				padding: 3em 1.5em 3em 1.5em ;
+				padding: 2em 1.5em 2em 1.5em ;
 			}
+
+				#footer .copyright {
+					margin: 1.5em 0 0 0;
+				}
+
+					#footer .copyright li {
+						border: 0;
+						display: block;
+						margin: 1em 0 0 0;
+						padding: 0;
+					}
+
+						#footer .copyright li:first-child {
+							margin-top: 0;
+						}
 
 	}
 
@@ -3368,7 +3383,22 @@ q {font-style: italic;}
 		/* Footer */
 
 			#footer {
-				padding: 2em 1em 2em 1em ;
+				padding: 2em 1.5em 2em 1.5em ;
 			}
+
+				#footer .copyright {
+					margin: 1.5em 0 0 0;
+				}
+
+					#footer .copyright li {
+						border: 0;
+						display: block;
+						margin: 1em 0 0 0;
+						padding: 0;
+					}
+
+						#footer .copyright li:first-child {
+							margin-top: 0;
+						}
 
 	}
