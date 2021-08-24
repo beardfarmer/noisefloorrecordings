@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body {
-		color: #fff;
+		color: #777;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -107,7 +107,6 @@ input, select, textarea {
 	}
 
 input, select, textarea {
-		color: #666;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -2978,7 +2977,7 @@ q {font-style: italic;}
 	#footer {
 		padding: 6em 0 6em 0 ;
 		background-color: #007c89;
-		color: rgba(255, 255, 255, 0.75);
+		color:#fff;
 		text-align: center;
 	}
 
