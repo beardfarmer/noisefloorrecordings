@@ -97,12 +97,22 @@ input, select, textarea {
 			transition: none !important;
 		}
 
-	body, input, select, textarea {
+	body {
+		color: #fff;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 16pt;
+		font-weight: 300;
+		line-height: 1.65em;
+		background-color: #007c89;
+	}
+
+input, select, textarea {
 		color: #666;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
+		background-color: #fff;
 	}
 
 	a {
@@ -117,7 +127,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent !important;
-			color: #6bd4c8;
+			color: #08b2b9;
 		}
 
 	strong, b {
@@ -2967,7 +2977,7 @@ q {font-style: italic;}
 
 	#footer {
 		padding: 6em 0 6em 0 ;
-		background-color: #4686a0;
+		background-color: #007c89;
 		color: rgba(255, 255, 255, 0.75);
 		text-align: center;
 	}
