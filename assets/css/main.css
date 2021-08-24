@@ -2233,6 +2233,7 @@ input, select, textarea {
 		list-style: disc;
 		margin: 10px 20px;
 		padding: 15px 15px;
+		color: #fff;
 	}
 
 		ul li {
@@ -2385,6 +2386,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding: 15px 15px;
+		color: #fff;
 	}
 
 		ul.icons li {
