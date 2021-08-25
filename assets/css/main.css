@@ -2384,8 +2384,29 @@ input, select, textarea {
 						}
 
 		}
+/* Icons */
 
-/* Service olor */
+ 	ul.icons {
+ 		cursor: default;
+ 		list-style: none;
+ 		padding: 15px 15px;
+ 		color: #fff;
+ 	}
+
+ 		ul.icons li {
+ 			display: inline-block;
+ 			padding: 0 1.25em 0 0;
+ 		}
+
+ 			ul.icons li:last-child {
+ 				padding-right: 0;
+ 			}
+
+ 			ul.icons li .icon:before {
+ 				font-size: 1.5em;
+ 			}
+
+/* Service icons */
 .service_icons {
 	display: block;
 	margin: auto;
