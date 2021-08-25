@@ -98,12 +98,12 @@ input, select, textarea {
 		}
 
 	body {
-		color: #777;
+		color: #4D4C4D;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
-		background-color: #007c89;
+		background-color: #fff;
 	}
 
 input, select, textarea {
@@ -126,11 +126,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent !important;
-			color: #08b2b9;
+			color: #FF33FF;
 		}
 
 	strong, b {
-		color: #555;
+		color: #007c89;
 		font-weight: 400;
 	}
 
@@ -143,7 +143,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #555;
+		color: #007c89;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -385,7 +385,7 @@ input, select, textarea {
 
 		.row > .col-6 {
 			width: 45%;
-			background-color: #efefef;
+			background-color: #999;
 			border-radius: 7px;
 		}
 
@@ -2022,7 +2022,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #999;
+		color: #4D4C4D;
 		margin: 0 0 1.5em 0;
 		position: relative;
 	}
@@ -2384,27 +2384,6 @@ input, select, textarea {
 						}
 
 		}
-/* Icons */
-
-	ul.icons {
-		cursor: default;
-		list-style: none;
-		padding: 15px 15px;
-		color: #fff;
-	}
-
-		ul.icons li {
-			display: inline-block;
-			padding: 0 1.25em 0 0;
-		}
-
-			ul.icons li:last-child {
-				padding-right: 0;
-			}
-
-			ul.icons li .icon:before {
-				font-size: 1.5em;
-			}
 
 /* Service Icons */
 .service_icons {
@@ -2703,7 +2682,7 @@ q {font-style: italic;}
 			}
 
 				.main.style2 a:hover {
-					color: #ffffff;
+					color: #FF33FF;
 				}
 
 			.main.style2 h1, .main.style2 h2, .main.style2 h3, .main.style2 h4, .main.style2 h5, .main.style2 h6, .main.style2 strong, .main.style2 b {
@@ -2761,13 +2740,6 @@ q {font-style: italic;}
 						background-color: rgba(255, 255, 255, 0.25) !important;
 					}
 
-			.main.style2 ul.major-icons li .icon {
-				border-color: #ffffff;
-			}
-
-			.main.style2 .icon.major {
-				color: #ffffff;
-			}
 
 /* Header */
 
@@ -2790,7 +2762,7 @@ q {font-style: italic;}
 		}
 
 			#header a:hover {
-				color: #ffffff;
+				color: #FF33FF;
 			}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #header strong, #header b {
@@ -2856,14 +2828,6 @@ q {font-style: italic;}
 				#header .button.primary:active {
 					background-color: #039aab; 13% !important;
 				}
-
-		#header ul.major-icons li .icon {
-			border-color: #ffffff;
-		}
-
-		#header .icon.major {
-			color: #ffffff;
-		}
 
 		#header h1 {
 			margin: 0;
@@ -2992,7 +2956,7 @@ q {font-style: italic;}
 		}
 
 			#footer a:hover {
-				color: #ffffff;
+				color: #FF33FF;
 			}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
@@ -3124,18 +3088,6 @@ q {font-style: italic;}
 				display: none;
 			}
 
-		/* List */
-
-			ul.major-icons li {
-				padding: 2em;
-			}
-
-				ul.major-icons li .icon {
-					height: 8em;
-					line-height: 8em;
-					width: 8em;
-				}
-
 		/* Main */
 
 			.main {
@@ -3169,19 +3121,7 @@ q {font-style: italic;}
 /* Medium */
 
 	@media screen and (max-width: 980px) {
-
-		/* List */
-
-			ul.major-icons li {
-				padding: 2em;
-			}
-
-				ul.major-icons li .icon {
-					height: 7em;
-					line-height: 7em;
-					width: 7em;
-				}
-
+		
 		/* Main */
 
 			.main {
@@ -3239,22 +3179,6 @@ q {font-style: italic;}
 			h4 {
 				font-size: 1em;
 			}
-
-		/* List */
-
-			ul.major-icons li {
-				padding: 1.5em;
-			}
-
-				ul.major-icons li .icon {
-					height: 5em;
-					line-height: 5em;
-					width: 5em;
-				}
-
-					ul.major-icons li .icon:before {
-						font-size: 42px;
-					}
 
 		/* Icon */
 
