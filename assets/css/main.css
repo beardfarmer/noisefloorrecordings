@@ -80,6 +80,7 @@ input, select, textarea {
 
 	*, *:before, *:after {
 		box-sizing: inherit;
+		border-radius:7px;
 	}
 
 	body {
@@ -2411,7 +2412,6 @@ input, select, textarea {
 	display: block;
 	margin: auto;
     width: 100%;
-    max-width: 100%;
     height: auto;
 }
 
@@ -2691,7 +2691,7 @@ q {font-style: italic;}
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/Cabin 1 purple.jpg"), url("../../images/header.jpg");
+			background-image: url("images/Cabin_1_purple.jpg"), url("../../images/header.jpg");
 			background-size: auto,							cover;
 		}
 
