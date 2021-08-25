@@ -132,7 +132,7 @@ input, select, textarea {
 			}
 
 	strong, b {
-		color: #007c89;
+		color: #9902AB;
 		font-weight: 400;
 	}
 
@@ -145,7 +145,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #007c89;
+		color: #9902AB;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -2665,7 +2665,7 @@ input, select, textarea {
 }
 /* Add a background color to the active dot/circle */
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #f1f1f1;
 }
 q {font-style: italic;}
 .author {color: black;}
