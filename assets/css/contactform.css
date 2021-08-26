@@ -19,7 +19,7 @@
 }
 
 input[type=submit] {
-  background-color: #AE00C7;
+  background-color: #660066;
   color: white;
   padding: 1px 1px;
   border: none;
@@ -31,6 +31,6 @@ input[type=submit] {
 input[type=submit].primary:hover,
 input[type=reset].primary:hover,
 input[type=button].primary:hover,button.primary:hover, .button.primary:hover {
-	background-color: #039aab; !important;
+	background-color: #AE00C7; !important;
 	color: #ffffff !important;
 				}
