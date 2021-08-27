@@ -165,6 +165,7 @@ input, select, textarea {
 	h2 {
 		font-size: 2em;
 		line-height: 1.35em;
+		text-align:center;
 	}
 
 	h3 {
@@ -2672,7 +2673,6 @@ q {font-style: italic;}
 		.main.style1 {
 			background: #fff;
 			color: #4D4C4D;
-			text-align:center;
 		}
 
 		.main.style2 {
