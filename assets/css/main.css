@@ -2907,6 +2907,12 @@ q {font-style: italic;}
 				transform: translateY(0);
 				opacity: 1;
 			}
+#footer {
+		padding: 6em 0 6em 0 ;
+		background-color: #660066;
+		color:#fff;
+		text-align: center;
+	}
 
 /* @noisefloor logo  */
 
