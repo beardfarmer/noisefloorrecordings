@@ -2645,7 +2645,7 @@ input, select, textarea {
 }
 /* Add a background color to the active dot/circle */
 .active, .dot:hover {
-  background-color: #f1f1f1;
+  background-color: #9600AB;
 }
 q {font-style: italic;}
 .author {color: black;}
