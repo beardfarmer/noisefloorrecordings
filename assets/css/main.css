@@ -2236,7 +2236,7 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		margin: 10px 20px;
 		padding: 15px 15px;
 		color: #fff;
@@ -2907,74 +2907,8 @@ q {font-style: italic;}
 				transform: translateY(0);
 				opacity: 1;
 			}
+
 #footer {
-		padding: 6em 0 6em 0 ;
-		background-color: #660066;
-		color:#fff;
-		text-align: center;
-	}
-
-/* @noisefloor logo  */
-
-.noisefloor-logo {
-   	 background-image: url(../../images/NF_LOGO_BANNER_trans.png);
-   	 background-size: cover;
-   	 width: 100%;
-    	height: 7rem;
-   	 max-width: 600px;
-    	max-height: 132px;
-    	margin: 0 auto 2rem;
-}
-@media screen and (max-width: 500px) {
-	.noisefloor-logo {
-		height: 5.7rem;
-	}
-	
-/* @media screen */
-	
-	@media screen and (max-width: 410px) {
-	.noisefloor-logo {
-		height: 4rem;
-	}
-		#header:after {
-			-moz-transition: opacity 1s ease;
-			-webkit-transition: opacity 1s ease;
-			-ms-transition: opacity 1s ease;
-			transition: opacity 1s ease;
-			background-image: linear-gradient(45deg, #4fa49a, #4361c2);
-			content: '';
-			height: 100%;
-			left: 0;
-			opacity: 0;
-			position: absolute;
-			top: 0;
-			width: 100%;
-		}
-
-	body.is-preload #header .inner {
-		-moz-transform: scale(1.05);
-		-webkit-transform: scale(1.05);
-		-ms-transform: scale(1.05);
-		transform: scale(1.05);
-		opacity: 0;
-	}
-
-		body.is-preload #header .inner .actions {
-			-moz-transform: translateY(30em);
-			-webkit-transform: translateY(30em);
-			-ms-transform: translateY(30em);
-			transform: translateY(30em);
-			opacity: 0;
-		}
-
-	body.is-preload #header:after {
-		opacity: 1;
-	}
-
-
-/* Footer */
-
-	#footer {
 		padding: 6em 0 6em 0 ;
 		background-color: #660066;
 		color:#fff;
@@ -3037,6 +2971,65 @@ q {font-style: italic;}
 					margin-left: 0;
 					padding: 0;
 				}
+
+
+/* @noisefloor logo  */
+
+.noisefloor-logo {
+   	 background-image: url(../../images/NF_LOGO_BANNER_trans.png);
+   	 background-size: cover;
+   	 width: 100%;
+    	height: 7rem;
+   	 max-width: 600px;
+    	max-height: 132px;
+    	margin: 0 auto 2rem;
+}
+@media screen and (max-width: 500px) {
+	.noisefloor-logo {
+		height: 5.7rem;
+	}
+	
+/* @media screen */
+	
+	@media screen and (max-width: 410px) {
+	.noisefloor-logo {
+		height: 4rem;
+	}
+		#header:after {
+			-moz-transition: opacity 1s ease;
+			-webkit-transition: opacity 1s ease;
+			-ms-transition: opacity 1s ease;
+			transition: opacity 1s ease;
+			background-image: linear-gradient(45deg, #4fa49a, #4361c2);
+			content: '';
+			height: 100%;
+			left: 0;
+			opacity: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
+
+	body.is-preload #header .inner {
+		-moz-transform: scale(1.05);
+		-webkit-transform: scale(1.05);
+		-ms-transform: scale(1.05);
+		transform: scale(1.05);
+		opacity: 0;
+	}
+
+		body.is-preload #header .inner .actions {
+			-moz-transform: translateY(30em);
+			-webkit-transform: translateY(30em);
+			-ms-transform: translateY(30em);
+			transform: translateY(30em);
+			opacity: 0;
+		}
+
+	body.is-preload #header:after {
+		opacity: 1;
+	}
+	
 
 /* XLarge */
 
