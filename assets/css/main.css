@@ -2948,27 +2948,23 @@ q {font-style: italic;}
 		}
 
 #footer .contact {
-	border-left: solid 1px;
- 				display: inline-block;
-				line-height: 1em;
-				margin-left: 1em;
- 				padding: 0 0 0 1em;
+		border: none;
+ 		display: inline-block;
+		line-height: 2em;
+ 		padding: 1em;
 }
-#footer .contactt li:first-child {
-				margin-top: 0;
-			}
 
 		#footer .copyright {
 			font-size: 0.8em;
 			list-style: none;
 			margin: 2em 0 0 0;
-			padding: 10px;
+			padding: 20px;
 		}
 
 			#footer .copyright li {
 				line-height: 1em;
 				margin-left: 1em;
- 				padding: 0 0 0 1em;
+ 				padding: 0;
 			}
 
 				
@@ -3209,36 +3205,20 @@ q {font-style: italic;}
 				}
 
 		/* Footer */
-
+		
 			#footer {
 				padding: 2em 1.5em 2em 1.5em ;
 			}
 #footer .contact {
-	border-left: solid 1px;
- 				display: inline-block;
-				line-height: 1em;
-				margin-left: 1em;
- 				padding: 0 0 0 1em;
+	            display: inline-block;
+				line-height: 2em;
+				margin: auto;
+ 				border: none;
 }
-#footer .contactt li:first-child {
-				margin-top: 0;
-			}
 
 				#footer .copyright {
 					margin: 1.5em 0 0 0;
 				}
-
-					#footer .copyright li {
-						border: 0;
-						display: block;
-						margin: 1em 0 0 0;
-						padding: 0;
-					}
-
-						#footer .copyright li:first-child {
-							margin-top: 0;
-						}
-
 
 /* XXSmall */
 
@@ -3261,26 +3241,3 @@ q {font-style: italic;}
 			#header {
 				padding: 3em 1em 3em 1em ;
 			}
-
-		/* Footer */
-
-			#footer {
-				padding: 2em 1.5em 2em 1.5em ;
-			}
-
-				#footer .copyright {
-					margin: 1.5em 0 0 0;
-				}
-
-					#footer .copyright li {
-						border: 0;
-						display: block;
-						margin: 1em 0 0 0;
-						padding: 0;
-					}
-
-						#footer .copyright li:first-child {
-							margin-top: 0;
-						}
-
-	}
