@@ -2999,58 +2999,6 @@ q {font-style: italic;}
 			background: #ffffff;
 		}
 
-		#footer input[type="submit"],
-		#footer input[type="reset"],
-		#footer input[type="button"],
-		#footer button,
-		#footer .button {
-			box-shadow: inset 0 0 0 1px #ffffff;
-			color: #ffffff !important;
-		}
-
-			#footer input[type="submit"]:hover,
-			#footer input[type="reset"]:hover,
-			#footer input[type="button"]:hover,
-			#footer button:hover,
-			#footer .button:hover {
-				background-color: rgba(255, 255, 255, 0.125);
-			}
-
-			#footer input[type="submit"]:active,
-			#footer input[type="reset"]:active,
-			#footer input[type="button"]:active,
-			#footer button:active,
-			#footer .button:active {
-				background-color: rgba(255, 255, 255, 0.25);
-			}
-
-			#footer input[type="submit"].primary,
-			#footer input[type="reset"].primary,
-			#footer input[type="button"].primary,
-			#footer button.primary,
-			#footer .button.primary {
-				background-color: #ffffff;
-				box-shadow: inset 0 0 0 1px #ffffff !important;
-				color: #4686a0 !important;
-			}
-
-				#footer input[type="submit"].primary:hover,
-				#footer input[type="reset"].primary:hover,
-				#footer input[type="button"].primary:hover,
-				#footer button.primary:hover,
-				#footer .button.primary:hover {
-					background-color: rgba(255, 255, 255, 0.125) !important;
-					color: #ffffff !important;
-				}
-
-				#footer input[type="submit"].primary:active,
-				#footer input[type="reset"].primary:active,
-				#footer input[type="button"].primary:active,
-				#footer button.primary:active,
-				#footer .button.primary:active {
-					background-color: rgba(255, 255, 255, 0.25) !important;
-				}
-
 		#footer ul.major-icons li .icon {
 			border-color: #ffffff;
 		}
@@ -3137,17 +3085,6 @@ q {font-style: italic;}
 					display: inline;
 				}
 
-		/* Footer */
-
-			#footer {
-				padding: 4em 0 4em 0 ;
-				background-color: #fff;
-				color:#ECECEC;
-				text-align: center;
-			}
-
-	}
-
 /* Medium */
 
 	@media screen and (max-width: 980px) {
@@ -3164,15 +3101,6 @@ q {font-style: italic;}
 				padding: 8em 3em 8em 3em ;
 			}
 
-		/* Footer */
-
-			#footer {
-				padding: 5em 3em 5em 3em ;
-				background-color: #fff;
-				color:#ECECEC;
-				text-align: center;
-			}
-
 		/* One */
 
 			#one {
@@ -3184,8 +3112,6 @@ q {font-style: italic;}
 			#two {
 				text-align: center;
 			}
-
-	}
 
 /* Small */
 
@@ -3245,33 +3171,6 @@ q {font-style: italic;}
 				#header .actions {
 					margin: 2em 0 0 0;
 				}
-	
-		
-		/* Footer */
-
-			#footer {
-				padding: 2em 1.5em 2em 1.5em ;
-				background-color: #660066;
-				color:#ECECEC;
-				text-align: center;
-	}
-
-				#footer .copyright {
-					margin: 1.5em 0 0 0;
-				}
-
-					#footer .copyright li {
-						border: 0;
-						display: block;
-						margin: 1em 0 0 0;
-						padding: 0;
-					}
-
-						#footer .copyright li:first-child {
-							margin-top: 0;
-						}
-
-	}
 
 /* XSmall */
 
