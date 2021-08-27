@@ -2751,9 +2751,17 @@ q {font-style: italic;}
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed;
-			background-image: url("../../images/Outboardblur.jpg");
+			background-image: url("../../images/outboardblur.jpg");
 			background-size: auto,cover;
 		}
+
+.main.style3 h1, .main.style3 h2, .main.style3 h3, .main.style3 h4, .main.style3 h5, .main.style3 h6, .main.style3 strong, .main.style3 b {
+				color: #ffffff;
+			}
+
+			.main.style2 header p {
+				color: #ffffff;
+			}
 
 /* Header */
 
