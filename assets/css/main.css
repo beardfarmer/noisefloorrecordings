@@ -126,7 +126,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #B65499;
+			color: #770066;
 		}
 
 	strong, b {
@@ -2494,7 +2494,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #B65499;
+			background-color: #770066;
 		}
 
 		input[type="submit"]:active,
@@ -2502,7 +2502,7 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #B65499;
+			background-color: #770066;
 		}
 
 		input[type="submit"].icon:before,
@@ -2560,7 +2560,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #B65499;
+				background-color: #770066;
 			}
 
 			input[type="submit"].primary:active,
@@ -2568,7 +2568,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #B65499;
+				background-color: #770066;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2694,7 +2694,7 @@ q {font-style: italic;}
 				.main.style2 input[type="button"]:active,
 				.main.style2 button:active,
 				.main.style2 .button:active {
-					background-color: #B65499;
+					background-color: #770066;
 				}
 
 				.main.style2 input[type="submit"].primary,
@@ -2704,7 +2704,7 @@ q {font-style: italic;}
 				.main.style2 .button.primary {
 					background-color: #ffffff;
 					box-shadow: inset 0 0 0 1px #ffffff !important;
-					color: #B65499 !important;
+					color: #770066 !important;
 				}
 
 					.main.style2 input[type="submit"].primary:hover,
@@ -2761,7 +2761,7 @@ q {font-style: italic;}
 	}
 
 			#header a:hover {
-				color: #B65499;
+				color: #770066;
 			}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #header strong, #header b {
@@ -2786,7 +2786,7 @@ q {font-style: italic;}
 			#header input[type="button"]:hover,
 			#header button:hover,
 			#header .button:hover {
-				background-color: #B65499;
+				background-color: #770066;
 			}
 
 			#header input[type="submit"]:active,
@@ -2891,7 +2891,7 @@ q {font-style: italic;}
 		}
 
 			#footer a:hover {
-				color: #B65499;
+				color: #770066;
 			}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
