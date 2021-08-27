@@ -2687,7 +2687,7 @@ q {font-style: italic;}
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed;
-			background-image: url("../../images/Outboardblur.jpg");
+			background-image: url("../../images/gregdeskblur.jpg");
 			background-size: auto,cover;
 		}
 
@@ -2746,6 +2746,14 @@ q {font-style: italic;}
 						background-color: rgba(255, 255, 255, 0.25) !important;
 					}
 
+.main.style3 {
+			text-align:center;
+			background-color: #333;
+			color: rgba(255, 255, 255, 0.75);
+			background-attachment: fixed;
+			background-image: url("../../images/Outboardblur.jpg");
+			background-size: auto,cover;
+		}
 
 /* Header */
 
