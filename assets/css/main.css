@@ -2947,6 +2947,17 @@ q {font-style: italic;}
 			margin: 0;
 		}
 
+#footer .contact {
+	border-left: solid 1px;
+ 				display: inline-block;
+				line-height: 1em;
+				margin-left: 1em;
+ 				padding: 0 0 0 1em;
+}
+#footer .contactt li:first-child {
+				margin-top: 0;
+			}
+
 		#footer .copyright {
 			font-size: 0.8em;
 			list-style: none;
@@ -2955,17 +2966,12 @@ q {font-style: italic;}
 		}
 
 			#footer .copyright li {
-				border: 0;
-				display: inline-block;
 				line-height: 1em;
-				margin: 1em 0 0 0;
-				padding: 0;
+				margin-left: 1em;
+ 				padding: 0 0 0 1em;
 			}
 
-				#footer .copyright li:first-child {
-				margin-top: 0;
-			}
-
+				
 	#footer .copyright {
 					margin: 1.5em 0 0 0;
 				}
@@ -3206,6 +3212,16 @@ q {font-style: italic;}
 
 			#footer {
 				padding: 2em 1.5em 2em 1.5em ;
+			}
+#footer .contact {
+	border-left: solid 1px;
+ 				display: inline-block;
+				line-height: 1em;
+				margin-left: 1em;
+ 				padding: 0 0 0 1em;
+}
+#footer .contactt li:first-child {
+				margin-top: 0;
 			}
 
 				#footer .copyright {
