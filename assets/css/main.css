@@ -2909,7 +2909,7 @@ q {font-style: italic;}
 			}
 
 #footer {
-		padding: 6em 0 6em 0 ;
+		padding: 1em 0 4em 0 ;
 		background-color: #660066;
 		color:#fff;
 		text-align: center;
@@ -2920,11 +2920,7 @@ q {font-style: italic;}
 		}
 
 			#footer a:hover {
-				color: #AE00C7;
-			}
-		
-		#footer a:visited {
-				color: #330033;
+				color: #999;
 			}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
@@ -2955,21 +2951,23 @@ q {font-style: italic;}
 			font-size: 0.8em;
 			list-style: none;
 			margin: 2em 0 0 0;
-			padding: 0;
+			padding: 10px;
 		}
 
 			#footer .copyright li {
-				border-left: solid 1px;
-				display: inline-block;
+				border: 0;
+				display: block;
 				line-height: 1em;
-				margin-left: 1em;
-				padding: 0 0 0 1em;
+				margin: 1em 0 0 0;
+				padding: 0;
 			}
 
 				#footer .copyright li:first-child {
-					border-left: 0;
-					margin-left: 0;
-					padding: 0;
+				margin-top: 0;
+			}
+
+	#footer .copyright {
+					margin: 1.5em 0 0 0;
 				}
 
 
@@ -3225,7 +3223,6 @@ q {font-style: italic;}
 							margin-top: 0;
 						}
 
-	}
 
 /* XXSmall */
 
