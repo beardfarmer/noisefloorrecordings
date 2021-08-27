@@ -384,8 +384,8 @@ input, select, textarea {
 		}
 
 		.row > .col-6 {
-			width: 45%;
-			background-color: #999;
+			width: 50%;
+			background-color: #e2e2e2;
 			border-radius: 7px;
 		}
 
