@@ -23,8 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
-
+	vertical-align: baseline;
+	border-radius: 0;
+}
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -2690,6 +2691,7 @@ q {font-style: italic;}
 			background-image: url("../../images/gregdeskblur.jpg");
 			background-size: auto,cover;
 			background-position: top,center;
+			border-radius: 0;
 		}
 
 			.main.style2 h1, .main.style2 h2, .main.style2 h3, .main.style2 h4, .main.style2 h5, .main.style2 h6, .main.style2 strong, .main.style2 b {
@@ -2755,6 +2757,7 @@ q {font-style: italic;}
 			background-image: url("../../images/outboardblur.jpg");
 			background-size: auto,cover;
 			background-position: top,center;
+			border-radius: 0;
 		}
 
 .main.style3 h1, .main.style3 h2, .main.style3 h3, .main.style3 h4, .main.style3 h5, .main.style3 h6, .main.style3 strong, .main.style3 b {
@@ -2778,7 +2781,8 @@ q {font-style: italic;}
 		overflow: hidden;
 		position: relative;
 		text-align: center;
-		 max-height: 600px;
+		max-height: 600px;
+		border-radius: 0;
 	}
 
 			#header a:hover {
@@ -2967,12 +2971,16 @@ q {font-style: italic;}
 	#footer {
 		padding: 6em 0 6em 0 ;
 		background-color: #660066;
-		color:#ECECEC;
+		color:#fff;
 		text-align: center;
 	}
+		
+		#footer a {
+			color:#ECECEC;
+		}
 
 			#footer a:hover {
-				color: #D808F1;
+				color: #AE00C7;
 			}
 		
 		#footer a:visited {
@@ -3133,7 +3141,9 @@ q {font-style: italic;}
 
 			#footer {
 				padding: 4em 0 4em 0 ;
-				background-attachment: scroll;
+				background-color: #fff;
+				color:#ECECEC;
+				text-align: center;
 			}
 
 	}
@@ -3158,6 +3168,9 @@ q {font-style: italic;}
 
 			#footer {
 				padding: 5em 3em 5em 3em ;
+				background-color: #fff;
+				color:#ECECEC;
+				text-align: center;
 			}
 
 		/* One */
@@ -3238,7 +3251,10 @@ q {font-style: italic;}
 
 			#footer {
 				padding: 2em 1.5em 2em 1.5em ;
-			}
+				background-color: #660066;
+				color:#ECECEC;
+				text-align: center;
+	}
 
 				#footer .copyright {
 					margin: 1.5em 0 0 0;
