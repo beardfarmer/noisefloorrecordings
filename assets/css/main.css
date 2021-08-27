@@ -2956,7 +2956,7 @@ q {font-style: italic;}
 
 			#footer .copyright li {
 				border: 0;
-				display: block;
+				display: inline-block;
 				line-height: 1em;
 				margin: 1em 0 0 0;
 				padding: 0;
