@@ -139,7 +139,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 2em 2em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -384,7 +384,7 @@ input, select, textarea {
 		}
 
 		.row > .col-6 {
-			width: 50%;
+			width: 45%;
 			background-color: #e2e2e2;
 			border-radius: 7px;
 		}
@@ -2392,9 +2392,7 @@ input, select, textarea {
 /* Service icons */
 .service_icons {
 	display: block;
-	margin: auto;
-    width: 100%;
-    height: auto;
+	padding: 1em;
 }
 
 /* Table */
