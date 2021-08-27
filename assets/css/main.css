@@ -2672,6 +2672,7 @@ q {font-style: italic;}
 		.main.style1 {
 			background: #fff;
 			color: #4D4C4D;
+			text-align:center;
 		}
 
 		.main.style2 {
