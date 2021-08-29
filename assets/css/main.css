@@ -1487,8 +1487,9 @@ input, select, textarea {
 					margin: 0;
 					}
 			
-					.row.gtr-150 > * {
-						padding: 0 0 0 3em;
+				.row.gtr-150 > * {
+					padding: 20px 20px;
+					margin: 0 auto;
 					}
 
 					.row.gtr-150.gtr-uniform {
@@ -1731,8 +1732,9 @@ input, select, textarea {
 					margin: 0;
 					}
 			
-					.row.gtr-150 > * {
-						padding: 0 0 0 3em;
+				.row.gtr-150 > * {
+					padding: 20px 20px;
+					margin: 0 auto;
 					}
 
 					.row.gtr-150.gtr-uniform {
@@ -1975,8 +1977,9 @@ input, select, textarea {
 					margin: 0;
 					}
 
-					.row.gtr-150 > * {
-						padding: 0 0 0 3em;
+				.row.gtr-150 > * {
+					padding: 20px 20px;
+					margin: 0 auto;
 					}
 
 					.row.gtr-150.gtr-uniform {
