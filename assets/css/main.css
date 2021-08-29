@@ -284,10 +284,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.container {
-				max-width: 100% !important;
-				width: 90% !important;
-			}
-
+				max-width: 100%;
 		}
 
 		@media screen and (max-width: 480px) {
@@ -387,6 +384,7 @@ input, select, textarea {
 			width: 45%;
 			background-color: #e2e2e2;
 			border-radius: 7px;
+			margin: 0 auto;
 		}
 
 		.row > .off-6 {
@@ -1001,9 +999,9 @@ input, select, textarea {
 
 					.row.gtr-150 > * {
 						padding: 20px 20px;
-						margin: 1em;
+						margin: 0 auto;
 					}
-
+			
 					.row.gtr-150.gtr-uniform {
 						margin-top: -3em;
 					}
