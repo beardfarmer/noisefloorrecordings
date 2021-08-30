@@ -256,7 +256,6 @@ input, select, textarea {
 		max-width: calc(100% - 1em);
 		width: 60em;
 	}
-
 		.container.xsmall {
 			width: 15em;
 		}
@@ -279,22 +278,6 @@ input, select, textarea {
 
 		.container.max {
 			width: 100%;
-		}
-
-		@media screen and (max-width: 980px) {
-
-			.container {
- 				max-width: 100% !important;
- 				width: 90% !important;
- 			}
-
-
-		@media screen and (max-width: 480px) {
-
-			.container {
-				max-width: calc(100% - 3em);
-			}
-
 		}
 
 /* Row */
