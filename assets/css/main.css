@@ -307,6 +307,7 @@ input, select, textarea {
 
 		.container.small {
 			width: 30em;
+			bg-color: #fff;
 		}
 
 		.container.medium {
