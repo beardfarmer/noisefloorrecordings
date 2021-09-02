@@ -2597,7 +2597,7 @@ input, select, textarea {
 
 /* Slideshow container */
 .slideshow-container {
-	position: relative;
+	position: inherit;
   background: #f1f1f1f1;
 }
 
