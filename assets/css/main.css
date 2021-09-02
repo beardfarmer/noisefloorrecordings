@@ -2279,6 +2279,13 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+ul.contact{
+		list-style: none;
+		margin: 10px 20px;
+		padding: 15px 15px;
+	}
+
+
 /* Actions */ 
 
 	ul.actions {
