@@ -307,7 +307,10 @@ input, select, textarea {
 
 		.container.small {
 			width: 30em;
-			bg-color: #fff;
+			background-color: #fff;
+			color:#4D4C4D;
+			text-align: left;
+				
 		}
 
 		.container.medium {
@@ -2254,6 +2257,7 @@ input, select, textarea {
 		margin: 10px 20px;
 		padding: 15px 15px;
 		color: #4D4C4D;
+		text-align: left;
 	}
 
 		ul li {
