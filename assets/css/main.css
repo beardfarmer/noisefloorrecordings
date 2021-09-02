@@ -2772,7 +2772,7 @@ q {font-style: italic;}
 			#header input[type="button"]:hover,
 			#header button:hover,
 			#header .button:hover {
-				background-color: #9600AB;
+				background-color: #dcdcdc;
 			}
 
 			#header input[type="submit"]:active,
