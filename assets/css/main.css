@@ -310,7 +310,9 @@ input, select, textarea {
 			background-color: #fff;
 			color:#4D4C4D;
 			text-align: left;
-				
+			border-radius: 7px;
+    			margin: auto;
+    			padding: 10px;	
 		}
 
 		.container.medium {
