@@ -2765,7 +2765,7 @@ q {font-style: italic;}
 		background-position: center center;
 		background-size: cover;
 		overflow: hidden;
-		position: relative;
+		position: inherit;
 		text-align: center;
 		max-height: 600px;
 		border-radius: 0;
@@ -2850,7 +2850,7 @@ q {font-style: italic;}
 			justify-content: center;
 			margin-top: 2.5em;
 			margin-left: 0;
-			position: relative;
+			position: inherit;
 		}
 
 			#header .actions li:first-child {
