@@ -292,7 +292,7 @@ input, select, textarea {
   text-align: center;
   padding: 10px 16px;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 13px;}
 }
 	
 /* Container */
@@ -2818,7 +2818,7 @@ q {font-style: italic;}
 				#header input[type="button"].primary:hover,
 				#header button.primary:hover,
 				#header .button.primary:hover {
-					background-color: #039aab; 13% !important;
+					background-color: #660066;
 					color: #ffffff !important;
 				}
 
@@ -2827,7 +2827,7 @@ q {font-style: italic;}
 				#header input[type="button"].primary:active,
 				#header button.primary:active,
 				#header .button.primary:active {
-					background-color: #039aab; 13% !important;
+					background-color: #660066;
 				}
 
 		#header h1 {
