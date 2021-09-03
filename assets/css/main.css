@@ -127,7 +127,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #dcdcdc;
+			color: #4D4C4D;
 		}
 
 	strong, b {
@@ -315,7 +315,7 @@ input, select, textarea {
 			color:#4D4C4D;
 			border-radius: 7px;
     			margin: auto;
-    			padding: 40px 10px;	
+    			padding: 40px 1em;	
 		}
 
 		.container.medium {
@@ -2825,7 +2825,7 @@ q {font-style: italic;}
 			#header input[type="button"]:hover,
 			#header button:hover,
 			#header .button:hover {
-				background-color: #dcdcdc;
+				background-color: #4D4C4D;
 			}
 
 			#header input[type="submit"]:active,
