@@ -311,7 +311,7 @@ input, select, textarea {
 		}
 
 		.container.small {
-			width: 30em;
+			 width: 100%;
 			background-color: #fff;
 			color:#4D4C4D;
 			border-radius: 7px;
