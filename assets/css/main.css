@@ -182,6 +182,7 @@ input, select, textarea {
 		line-height: 1.5em;
 		text-align: center;
     		color: #fff;
+		padding: 1em;
 	}
 
 	h6 {
