@@ -2421,6 +2421,7 @@ ul.contact{
  		list-style: none;
  		padding: 15px 15px;
  		color: #fff;
+		text-align: center;
  	}
 
  		ul.icons li {
@@ -2977,6 +2978,7 @@ q {font-style: italic;}
  		display: inline-block;
 		line-height: 2em;
  		padding: 1em;
+		text-align: center;
 }
 
 		#footer .copyright {
