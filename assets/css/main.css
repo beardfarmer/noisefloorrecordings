@@ -2745,7 +2745,7 @@ q {font-style: italic;}
 			color: rgba(255, 255, 255, 0.75);
 			background-image: url("../../images/gregdesk.jpg");
 			background-position: top center;
-    			background-attachment:scroll;
+    			background-attachment:fixed;
 			background-size: auto,cover;
  			background-position: top,center;
 		}
@@ -2765,11 +2765,9 @@ q {font-style: italic;}
 			background-attachment: fixed;
 			background-image: url("../../images/outboardblur.jpg");
 			background-position: top center;
-		background-attachment:scroll;
-    		background-size: cover;
-   		height: 80vh;
-    		width: 100%;
-			border-radius: 0;
+			background-attachment:fixed;
+    			background-size: auto,cover;
+ 			background-position: top,center;
 		}
 
 .main.style3 h1, .main.style3 h2, .main.style3 h3, .main.style3 h4, .main.style3 h5, .main.style3 h6, .main.style3 strong, .main.style3 b {
