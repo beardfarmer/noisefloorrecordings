@@ -2739,16 +2739,15 @@ q {font-style: italic;}
 						background-color: rgba(255, 255, 255, 0.25) !important;
 					}
 
-#mainstyle3 {
+.main.style3 {
 			text-align:center;
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-image: url("../../images/gregdesk.jpg");
 			background-position: top center;
-    		background-attachment:scroll;
-    		background-size: cover;
-   		height: 80vh;
-    		width: 100%;
+    			background-attachment:scroll;
+			background-size: auto,cover;
+ 			background-position: top,center;
 		}
 
 .main.style3 h1, .main.style3 h2, .main.style3 h3, .main.style3 h4, .main.style3 h5, .main.style3 h6, .main.style3 strong, .main.style3 b {
@@ -2780,9 +2779,6 @@ q {font-style: italic;}
 			.main.style2 header p {
 				color: #ffffff;
 			}
-#placeholdersoyoucanscroll{
-    height:100vh
-}
 
 /* Header */
 
