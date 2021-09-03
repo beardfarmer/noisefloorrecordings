@@ -2267,7 +2267,7 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5em;
-			display: list-item;
+			display: inline;
 		}
 
 		ul.alt {
@@ -2294,9 +2294,8 @@ ul.contact{
 		margin: 10px 20px;
 		padding: 15px 15px;
 	}
-ul.clients {list-style: none;
-		display: inline-block;
-		margin: 10px 20px;
+ul.clients {    list-style: none;
+		display: inline;
 		padding: 15px 15px;
 	}
 
