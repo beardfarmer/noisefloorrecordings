@@ -309,10 +309,9 @@ input, select, textarea {
 			width: 30em;
 			background-color: #fff;
 			color:#4D4C4D;
-			text-align: left;
 			border-radius: 7px;
     			margin: auto;
-    			padding: 10px;	
+    			padding: 40px 10px;	
 		}
 
 		.container.medium {
@@ -2745,7 +2744,7 @@ q {font-style: italic;}
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed;
-			background-image: url("../../images/outboardblur.jpg");
+			background-image: url("../../images/gregdesk.jpg");
 			background-size: auto,cover;
 			background-position: top,center;
 			border-radius: 0;
