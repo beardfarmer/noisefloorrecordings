@@ -2676,7 +2676,7 @@ q {font-style: italic;}
 		padding: 4em 0em;
 	}
 
-		.main.style1 {
+		.main1 {
 			background: #fff;
 			color: #4D4C4D;
 		}
@@ -2745,9 +2745,12 @@ q {font-style: italic;}
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed;
 			background-image: url("../../images/gregdesk.jpg");
-			background-size: auto,cover;
-			background-position: top,center;
-			border-radius: 0;
+			background-position: top center;
+    		background-attachment:scroll;
+    		background-size: cover;
+   		height: 80vh;
+    		width: 100%;
+		border-radius: 0;
 		}
 
 .main.style3 h1, .main.style3 h2, .main.style3 h3, .main.style3 h4, .main.style3 h5, .main.style3 h6, .main.style3 strong, .main.style3 b {
