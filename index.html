@@ -81,7 +81,7 @@
 				</div>
 			</section>
 	<!-- About -->
-		<section id="about"> <div class="mainstyle3">
+		<section id="about"> <div id="mainstyle3">
 		<div class="container">
 					<header class="major">
 								<h2>About</h2>
@@ -115,39 +115,7 @@
 					<div class="row aln-center gtr-150">
 						<div class="col-10 col-12-medium">
 <div class="container">
-	<script>
-		var slideIndex = 1;
-showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) { 
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-window.onload= function () {
- setInterval(function(){ 
-     plusSlides(1);
- }, 3000);
-}</script>
-	
 	<div class="slideshow-container">
 
   <!-- Full-width slides/quotes -->
@@ -242,15 +210,16 @@ window.onload= function () {
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 	<script> 
-		
 		document.getElementById("body").onscroll = function myFunction() {  
     var scrolltotop = document.scrollingElement.scrollTop;
-    var target = document.getElementById("main1");
+    var target = document.getElementById("mainstyle3");
     var xvalue = "center";
     var factor = 0.5;
     var yvalue = scrolltotop * factor;
     target.style.backgroundPosition = xvalue + " " + yvalue + "px";
-  }
+  }</script>
+	
+		<script>
 		var slideIndex = 1;
 		showSlides(slideIndex);
 
