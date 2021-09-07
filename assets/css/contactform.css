@@ -1,9 +1,12 @@
 .cform_container {
-  border-radius: 5px;
+  border-radius: 7px;
     background-color: #fff;
-    padding: 0px 20px;
     margin: 0 10%;
 }
+@media screen and (max-width: 600px) {
+	.cform_container {
+	margin: 10px;
+	}
   
   input[type=text], [type=email], select, textarea {
   width: 100%; 
