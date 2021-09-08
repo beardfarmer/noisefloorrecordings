@@ -302,17 +302,11 @@ input, select, textarea {
 }
 
 @media screen and (max-width: 1680px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
   .topnav.responsive a {
     float: none;
     display: block;
-    text-align: left;
-  }
+    text-align: left;}
+}
 	
 /* Container */
 
