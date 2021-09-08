@@ -271,6 +271,14 @@ input, select, textarea {
   font-size: 17px;
 }
 
+@media screen and (max-width: 1680px) {
+	.topnav {margin-top:-43px;}
+}
+
+@media screen and (max-width: 600px) {
+	.topnav {margin-top:0;}
+}
+
 .topnav a:hover {
   background-color: #ddd;
   color: black;
