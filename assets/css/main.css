@@ -1238,10 +1238,6 @@ color: #fff;
 					margin-left: 91.66667%;
 				}
 
-				.row > .col-12-medium {
-					width: 100%;
-				}
-
 				.row > .off-12-medium {
 					margin-left: 100%;
 				}
@@ -1485,7 +1481,9 @@ color: #fff;
 				.row > .off-12-small {
 					margin-left: 100%;
 				}
-
+			.row > .off-12-medium {
+					width: 100%;
+				}
 				.row.gtr-0 {
 					margin-top: 0;
 					margin-left: 0em;
@@ -1561,6 +1559,7 @@ color: #fff;
 				.row.gtr-150 > * {
 					padding: 20px 20px;
 					margin-bottom: 1em;
+					width: 100%;
 					}
 
 					.row.gtr-150.gtr-uniform {
