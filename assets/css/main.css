@@ -2327,12 +2327,13 @@ ul.contact {
 	}
 
 ul.clients {    list-style: none;
-		display: inline;
-		padding: 15px 15px;
+		padding: 0 15px;
+		line-height:2em;
+		text-align: center;
 	}
 
-.clients li {   padding-left: 0.5em;
-		display: inline;
+.clients li {   
+		display: inline-block;
 }
 
 /* Actions */ 
