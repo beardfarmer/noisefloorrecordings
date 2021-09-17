@@ -2297,7 +2297,6 @@ color: #fff;
 	}
 
 		ul li {
-			padding-left: 0.5em;
 			display: list-item;
 		}
 
@@ -3004,10 +3003,6 @@ q {font-style: italic;}
 		color: #fff;
 	}
 
-		ul li {
-			padding-left: 0.5em;
-		}
-
 		ul.alt {
 			list-style: none;
 			padding-left: 0;
@@ -3032,24 +3027,18 @@ q {font-style: italic;}
 }
 
 		#footer .copyright {
-			font-size: 0.8em;
+			font-size: 12px;
 			list-style: none;
-			margin: 2em 0 0 0;
 			padding: 20px;
 			color: #c1c1c1;
+			margin: 30px;
 		}
 
 			#footer .copyright li {
-				line-height: 1em;
-				margin-left: 1em;
+				line-height: 0.5em;
+				text-align:center;
  				padding: 0;
 			}
-
-				
-	#footer .copyright {
-					margin: 1.5em 0 0 0;
-				}
-
 
 /* @noisefloor logo  */
 
