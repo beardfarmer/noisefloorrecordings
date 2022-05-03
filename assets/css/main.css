@@ -2481,14 +2481,6 @@ ul.clients {    list-style: none;
 .service_icons {
 	display: block;
 	padding: 0.5em;
-	width: 40%;
-}
-
-@media screen and (max-width: 736px) {
-.service_icons {
-	display: block;
-	padding: 0.5em;
-	width: 30%;
 }
 	
 	
