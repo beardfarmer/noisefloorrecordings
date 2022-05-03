@@ -2480,7 +2480,7 @@ ul.clients {    list-style: none;
 /* Service icons */
 .service_icons {
 	display: block;
-	padding: 1em;
+	padding: 0.5em;
 }
 
 /* Table */
