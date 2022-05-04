@@ -2675,13 +2675,13 @@ ul.clients {    list-style: none;
 
 /* Slideshow container */
 .slideshow-container {
-  background: #f1f1f1f1;
+  background: #fff;
 }
 
 /* Slides */
 .mySlides {
   display: none;
-  padding: 80px;
+  padding: 50px 50px 0px;
   text-align: center;
 }
 	
@@ -2695,7 +2695,7 @@ ul.clients {    list-style: none;
 .dot-container {
   text-align: center;
   padding: 20px;
-  background: #ddd;
+  background: #fff;
 }
 
 /* The dots/bullets/indicators */
@@ -2704,7 +2704,7 @@ ul.clients {    list-style: none;
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #ddd;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
