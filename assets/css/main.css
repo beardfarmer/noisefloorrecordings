@@ -256,7 +256,6 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 		body {
-		font-size: 12pt;
 		font-weight: 300;
 		line-height: 1.35em;}
 	}
