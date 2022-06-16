@@ -101,7 +101,7 @@ input, select, textarea {
 		}
 
 	body {
-		color: #4D4C4D;
+		color: #0c0c0c;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -291,7 +291,7 @@ color: #fff;
 }
 
 .topnav a.active {
-  background-color: #4D4C4D;
+  background-color: #0c0c0c;
   color: white;
 }
 
@@ -335,7 +335,7 @@ color: #fff;
 		.container.small {
 			 width: 80%;
 			background-color: #fff;
-			color:#4D4C4D;
+			color:#0c0c0c;
     			margin: auto;
     			padding: 40px 1em;	
 		}
@@ -345,7 +345,7 @@ color: #fff;
 		.container.small {
 			 width: 100%;
 			 background-color: #fff;
-			 color:#4D4C4D;
+			 color:#0c0c0c;
 			 border-radius: 7px;
 			 margin: auto;
 			 padding: 30px 0.5em;
@@ -2085,7 +2085,7 @@ color: #fff;
 	}
 
 	header p {
-		color: #4D4C4D;
+		color: #0c0c0c;
 		margin: 0 0 1.5em 0;
 		position: relative;
 	}
@@ -2290,7 +2290,7 @@ color: #fff;
 		list-style: disc;
 		margin: 10px 20px;
 		padding: 0 1%;
-		color: #4D4C4D;
+		color: #0c0c0c;
 		text-align: left;
 	}
 
@@ -2725,7 +2725,7 @@ q {font-style: italic;}
 
 		.main1 {
 			background: #fff;
-			color: #4D4C4D;
+			color: #0c0c0c;
 		}
 
 		.main.style2 {
@@ -2798,17 +2798,17 @@ q {font-style: italic;}
 		}
 
 .main.style3 h1, .main.style3 h2, .main.style3 h3, .main.style3 h5, .main.style3 h6, .main.style3 strong, .main.style3 b {
-				color: #ffffff;
+				color: #0c0c0c;
 			}
 
 			.main.style2 header p {
-				color: #ffffff;
+				color: #0c0c0c;
 			}
 
 .main.style4 {
 			text-align:left;
 			background: #fff;
-    			color: #4D4C4D;
+    			color: #0c0c0c;
 			background-attachment: fixed;
 			background-image: url("../../images/outboardblur.jpg");
 			background-position: top center;
@@ -2818,7 +2818,7 @@ q {font-style: italic;}
 		}
 
 .main.style3 h1, .main.style3 h2, .main.style3 h3, .main.style3 h5, .main.style3 h6, .main.style3 strong, .main.style3 b {
-				color: #606;
+				color: #0c0c0c;
 			}
 
 			.main.style2 header p {
