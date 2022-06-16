@@ -144,7 +144,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h6 {
-		color: #9902AB;
+		color: #0c0c0c;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -2582,7 +2582,7 @@ ul.clients {    list-style: none;
 		button:hover,
 		.button:hover {
 			background-color: #f2f2f2;
-            color: #000;
+            color: #0c0c0c;
 }
 
 		input[type="submit"]:active,
@@ -2591,7 +2591,7 @@ ul.clients {    list-style: none;
 		button:active,
 		.button:active {
 		background-color: #f2f2f2;
-            color: #000;
+            color:#0c0c0c;
 }
 
 		input[type="submit"].icon:before,
@@ -2648,7 +2648,7 @@ ul.clients {    list-style: none;
 			button.primary:hover,
 			.button.primary:hover {
 			background-color: #f2f2f2;
-            		color: #000;
+            		color: #0c0c0c;
 }
 
 			input[type="submit"].primary:active,
@@ -2657,7 +2657,7 @@ ul.clients {    list-style: none;
 			button.primary:active,
 			.button.primary:active {
 			background-color: #f2f2f2;
-            		color: #000;
+            		color: #0c0c0c;
 }
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2829,7 +2829,7 @@ q {font-style: italic;}
 
 	#header {
 		padding: 5em 0 5em 0 ;
-		background-color: #000;
+		background-color: #0c0c0c;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed, fixed, fixed;
 		background-image: url(../../images/Mixing_desk_BW.jpg);
@@ -2890,7 +2890,7 @@ q {font-style: italic;}
 				#header button.primary:hover,
 				#header .button.primary:hover {
 					background-color: ##dcdcdc;
-					color: #000 !important;
+					color: #0c0c0c !important;
 				}
 
 				#header input[type="submit"].primary:active,
@@ -2899,7 +2899,7 @@ q {font-style: italic;}
 				#header button.primary:active,
 				#header .button.primary:active {
 					background-color: ##dcdcdc;
-					color: #000 !important;
+					color: #0c0c0c !important;
 				}
 
 		#header h1 {
