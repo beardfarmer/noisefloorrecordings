@@ -3209,10 +3209,6 @@ q {font-style: italic;}
 				padding: 4em 3em 4em 3em ;
 			}
 
-				#header .actions {
-					margin: 2em 0 0 0;
-				}
-
 /* XSmall */
 
 	@media screen and (max-width: 500px) {
