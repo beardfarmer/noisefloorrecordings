@@ -2442,6 +2442,7 @@ ul.clients {    list-style: none;
 					ul.actions:not(.fixed) li input[type="button"],
 					ul.actions:not(.fixed) li button,
 					ul.actions:not(.fixed) li .button {
+						margin-left: 15%;
 						width: 100%;
 					}
 
@@ -2873,7 +2874,7 @@ q {font-style: italic;}
 			#header input[type="button"]:active,
 			#header button:active,
 			#header .button:active {
-				background-color: #660066;
+				background-color: ##dcdcdc;
 			}
 
 			#header input[type="submit"].primary,
@@ -2891,8 +2892,8 @@ q {font-style: italic;}
 				#header input[type="button"].primary:hover,
 				#header button.primary:hover,
 				#header .button.primary:hover {
-					background-color: #660066;
-					color: #ffffff !important;
+					background-color: ##dcdcdc;
+					color: #000 !important;
 				}
 
 				#header input[type="submit"].primary:active,
@@ -2900,7 +2901,8 @@ q {font-style: italic;}
 				#header input[type="button"].primary:active,
 				#header button.primary:active,
 				#header .button.primary:active {
-					background-color: #660066;
+					background-color: ##dcdcdc;
+					color: #000 !important;
 				}
 
 		#header h1 {
