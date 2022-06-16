@@ -2411,8 +2411,8 @@ ul.clients {    list-style: none;
 				-webkit-flex-direction: column;
 				-ms-flex-direction: column;
 				flex-direction: column;
-				margin-left: 0;
-				width: 100% !important;
+				margin-left: 10%;				
+				width: 80% !important;
 			}
 
 				ul.actions:not(.fixed) li {
