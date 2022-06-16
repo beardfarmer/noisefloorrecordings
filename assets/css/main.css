@@ -122,16 +122,16 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		color: #660066;
+		color: #fff;
 		text-decoration: none;
 	}
 
 		a:hover {
-			color: #4D4C4D;
+			color: #d1d1d1;
 		}
 
 	strong, b {
-		color: #9600AB;
+		color: #606;
 		font-weight: 400;
 	}
 
