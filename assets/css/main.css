@@ -336,7 +336,6 @@ color: #fff;
 			 width: 80%;
 			background-color: #fff;
 			color:#4D4C4D;
-			border-radius: 7px;
     			margin: auto;
     			padding: 40px 1em;	
 		}
@@ -2735,6 +2734,11 @@ q {font-style: italic;}
 			background-color: #606;
 			color: rgba(255, 255, 255, 0.75);
 			border-radius: 0;
+			background-image: url(../../images/gregdesk.jpg);
+    			background-position: top center;
+    			background-attachment: fixed;
+    			background-size: auto,cover;
+    			background-position: top,center;
 		}
 
 			.main.style2 h1, .main.style2 h2, .main.style2 h3, .main.style2 h4, .main.style2 h5, .main.style2 h6, .main.style2 strong, .main.style2 b {
@@ -2790,13 +2794,8 @@ q {font-style: italic;}
 
 .main.style3 {
 			text-align:center;
-			background-color: #333;
-			color: rgba(255, 255, 255, 0.75);
-			background-image: url("../../images/gregdesk.jpg");
-			background-position: top center;
-    			background-attachment:fixed;
-			background-size: auto,cover;
- 			background-position: top,center;
+			background-color: #fff;
+			color: #272727;
 		}
 
 .main.style3 h1, .main.style3 h2, .main.style3 h3, .main.style3 h5, .main.style3 h6, .main.style3 strong, .main.style3 b {
