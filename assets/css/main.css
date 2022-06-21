@@ -2833,7 +2833,7 @@ q {font-style: italic;}
 		overflow: hidden;
 		position: inherit;
 		text-align: center;
-		max-height: 600px;
+		max-height: 500px;
 		border-radius: 0;
 	}
 
