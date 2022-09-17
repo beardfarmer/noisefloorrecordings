@@ -2827,7 +2827,7 @@ q {font-style: italic;}
 		background-color: #0c0c0c;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed, fixed, fixed;
-		background-image: url(../../images/Mixing_desk_BW.jpg);
+		background-image: url(../../images/Mixing_desk_colour.jpg) opacity: 0.7;
 		background-position: bottom;
 		background-size: cover;
 		overflow: hidden;
