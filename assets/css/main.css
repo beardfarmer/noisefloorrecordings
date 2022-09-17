@@ -2576,7 +2576,7 @@ ul.clients {    list-style: none;
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			transition: all .2s ease-in-out;transform: scale(0.9); 
+			transition: all .2s ease-in-out;transform: scale(1.2); 
 }
 
 		input[type="submit"]:active,
@@ -2651,7 +2651,7 @@ ul.clients {    list-style: none;
 			button.primary:active,
 			.button.primary:active {
 		transition: all .2s ease-in-out; 
-		transform: scale(0.9); 			
+		transform: scale(1.2); 			
 }
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2852,14 +2852,6 @@ q {font-style: italic;}
 		#header input[type="reset"],
 		#header input[type="button"],
 
-			#header input[type="submit"]:hover,
-			#header input[type="reset"]:hover,
-			#header input[type="button"]:hover,
-			#header button:hover,
-			#header .button:hover {
-				background-color: #f2f2f2;
-				color: #000;
-			}
 
 			#header input[type="submit"]:active,
 			#header input[type="reset"]:active,
