@@ -2651,8 +2651,8 @@ ul.clients {    list-style: none;
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-			background-color: #f2f2f2;
-            		color: #0c0c0c;
+		transition: all .2s ease-in-out; 
+		transform: scale(0.9); 			
 }
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2859,6 +2859,7 @@ q {font-style: italic;}
 			#header button:hover,
 			#header .button:hover {
 				background-color: #f2f2f2;
+				color: #000;
 			}
 
 			#header input[type="submit"]:active,
