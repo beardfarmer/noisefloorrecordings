@@ -3271,3 +3271,17 @@ q {font-style: italic;}
 			#header {
 				padding: 3em 1em 3em 1em ;
 			}
+
+		
+		.action-content.action-bar--fixed {
+    position: none;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 10000;
+    background: #fafafa;
+    border-top: 1px solid #ececec;
+    padding:6px 20px 7px
+}
+
