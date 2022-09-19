@@ -2822,17 +2822,17 @@ q {font-style: italic;}
 /* Header */
 
 	#header {
-		padding: 5em 0 5em 0 ;
+		padding: 25% 0 25% 0 ;
 		background-color: #0c0c0c;
 		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed, fixed, fixed;
+		background-attachment: fixed;
 		background-image: url(../../images/desk_colour_op50.jpg);
 		background-position: bottom;
 		background-size: cover;
 		overflow: hidden;
 		position: inherit;
 		text-align: center;
-		max-height: 500px;
+		max-height: 1000px;
 		border-radius: 0;
 	}
 
