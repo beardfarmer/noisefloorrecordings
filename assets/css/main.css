@@ -2076,7 +2076,7 @@ color: #fff;
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: center;
+		text-align: left;
 	}
 
 	header p {
@@ -2475,6 +2475,7 @@ ul.clients {    list-style: none;
 .service_icons {
 	display: block;
 	padding: 0.5em;
+	text-align: center;
 }
 	
 	
