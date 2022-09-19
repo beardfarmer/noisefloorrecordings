@@ -2076,7 +2076,7 @@ color: #fff;
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: left;
+		text-align: center;
 	}
 
 	header p {
@@ -2715,7 +2715,7 @@ q {font-style: italic;}
 /* Main */
 
 	.main { 
-		padding: 4em 0em;
+		padding: 2em 0em;
 	}
 
 		.main1 {
